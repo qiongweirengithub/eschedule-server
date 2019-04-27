@@ -23,7 +23,7 @@ import java.util.List;
 @RequestMapping(value = "eschdule-server")
 public class ManagementController {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(ManagementController.class);
+    private static final Logger logger = LoggerFactory.getLogger(ManagementController.class);
 
     @Autowired
     private ITaskStorage taskStorage;
@@ -32,11 +32,12 @@ public class ManagementController {
     @RequestMapping("queryAll")
     @ResponseBody
     public ResponseVo queryAll() {
+        logger.info("load for all request");
         try {
             List<JobModule> taskModuleList = taskStorage.queryAll();
             return ResponseVo.createTrue(taskModuleList);
         } catch (Exception e) {
-            LOGGER.error("任务注册失败");
+            logger.error("任务注册失败");
         }
         return new ResponseVo();
     }
@@ -48,7 +49,7 @@ public class ManagementController {
             JobModule taskModule = taskStorage.queryOne(name);
             return ResponseVo.createTrue(taskModule);
         } catch (Exception e) {
-            LOGGER.error("任务注册失败");
+            logger.error("任务注册失败");
         }
         return new ResponseVo();
     }
@@ -56,12 +57,12 @@ public class ManagementController {
     @RequestMapping("update")
     @ResponseBody
     public ResponseVo update(JobVo jobVo) {
-        LOGGER.info("更新定时任务:{}", jobVo.toString());
+        logger.info("更新定时任务:{}", jobVo.toString());
         try {
             taskStorage.update(new JobModule(jobVo));
             return ResponseVo.createTrue(null);
         } catch (Exception e) {
-            LOGGER.error("任务更新失败");
+            logger.error("任务更新失败");
         }
         return new ResponseVo();
     }
