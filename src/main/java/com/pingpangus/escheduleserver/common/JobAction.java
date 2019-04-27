@@ -71,11 +71,10 @@ public class JobAction implements Runnable {
 
     @Override
     public void run() {
-        String url = Joiner.on("/").join("http://" +clientIp+":"+"8090", getUrl());
         Map<String, String> paramMap = Maps.newHashMap();
         paramMap.put("jobName", getJobName());
         try {
-            EscheduleHttpUtils.get(url, paramMap);
+            EscheduleHttpUtils.get(clientIp, paramMap);
         } catch (IOException e) {
             LOGGER.error("error when invoking eclient job", e);
         }
