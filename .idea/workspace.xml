@@ -2,10 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764d3dd0-dff5-43a7-8f8f-b52cbcb97394" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring-logback.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui-task-panel/excel.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui-task-panel/managerdemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui-task-panel/taskpannel.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui-task-panel/test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/layui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/layui.mobile.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/code.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/layer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/1.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/10.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/11.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/12.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/13.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/14.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/15.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/16.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/17.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/18.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/19.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/20.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/21.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/22.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/23.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/24.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/25.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/26.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/27.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/28.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/29.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/3.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/30.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/31.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/32.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/33.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/34.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/35.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/36.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/37.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/38.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/39.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/4.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/40.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/41.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/42.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/43.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/44.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/45.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/46.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/47.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/48.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/49.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/5.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/50.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/51.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/52.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/53.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/54.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/55.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/56.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/57.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/58.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/59.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/6.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/60.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/61.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/62.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/63.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/64.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/65.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/66.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/67.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/68.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/69.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/7.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/70.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/71.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/8.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/9.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/carousel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/code.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/colorpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/element.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/flow.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laydate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layedit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laypage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laytpl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/mobile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/rate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/slider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/table.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/tree.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/upload.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/layui.all.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/layui/layui.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ManagementController.java" afterPath="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ManagementController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/common/JobModule.java" afterPath="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/common/JobModule.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ServerApiController.java" afterPath="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ServerApiController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-logback.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pingpangus/escheduleserver/common/JobModule.class" afterPath="$PROJECT_DIR$/target/classes/com/pingpangus/escheduleserver/common/JobModule.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pingpangus/escheduleserver/web/ServerApiController.class" afterPath="$PROJECT_DIR$/target/classes/com/pingpangus/escheduleserver/web/ServerApiController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,101 +132,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ManagementController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ManagementController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JobVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/vo/JobVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerApiController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ServerApiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JobModule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/common/JobModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="18">
+              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui-task-panel/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="213" column="1" lean-forward="true" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SchedulerRegister.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/core/SchedulerRegister.java">
+      <file leaf-file-name="ITaskStorage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/core/taskstorage/ITaskStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="252">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/common/JobAction.java">
+      <file leaf-file-name="CacheStorage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/core/taskstorage/storageimpl/CacheStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+            <state relative-caret-position="486">
+              <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskGenerater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/core/TaskGenerater.java">
+      <file leaf-file-name="ManagementController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ManagementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+            <state relative-caret-position="684">
+              <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadPoolTaskScheduler.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskScheduler.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="310" column="30" lean-forward="false" selection-start-line="310" selection-start-column="30" selection-end-line="310" selection-end-column="30" />
+            <state relative-caret-position="126">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taskpannel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui-task-panel/taskpannel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui-task-panel/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="managerdemo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui-task-panel/managerdemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1638">
+              <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui-task-panel/excel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -123,6 +249,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -138,6 +265,8 @@
       <find>start as</find>
       <find>ronChange task is runn</find>
       <find>eschdule-server</find>
+      <find>res.layui.com/layui/dist/css/layui.css?t=1554901097999</find>
+      <find>load for all reque</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,11 +314,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/app/MyBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/eclient/core/AnnotationParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ServerApiController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/common/JobAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ManagementController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/test.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/excel.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/managerdemo.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/panel/taskpannel.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ServerApiController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/common/JobModule.java" />
       </list>
     </option>
   </component>
@@ -224,9 +359,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="y" value="52" />
+    <option name="width" value="1291" />
+    <option name="height" value="686" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -246,6 +381,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,35 +425,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="escheduleserver" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="escheduleserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="escheduleserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="escheduleserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="escheduleserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="escheduleserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="escheduleserver" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="escheduleserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="escheduleserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="escheduleserver" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="escheduleserver" type="b2602c69:ProjectViewProjectNode" />
@@ -323,14 +434,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="escheduleserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escheduleserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escheduleserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escheduleserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="layui-task-panel" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,14 +473,22 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.pingpangus.eschedule" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/layui-task-panel" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/panel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -371,7 +503,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -413,31 +545,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="com.pingpangus.escheduleserver.eclient in schedule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pingpangus.escheduleserver.eclient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="schedule" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.pingpangus.escheduleserver.eclient" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -457,10 +564,14 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pingpangus.escheduleserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pingpangus.escheduleserver.Main" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="escheduleserver" />
       <envs />
     </configuration>
@@ -497,13 +608,9 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.com.pingpangus.escheduleserver.eclient in schedule" />
-    </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.com.pingpangus.escheduleserver.eclient in schedule" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +632,16 @@
       <workItem from="1556293044348" duration="12873000" />
       <workItem from="1556341986655" duration="342000" />
       <workItem from="1556342384709" duration="929000" />
-      <workItem from="1556347984590" duration="5768000" />
+      <workItem from="1556347984590" duration="6199000" />
+      <workItem from="1556376141633" duration="615000" />
+      <workItem from="1556629866104" duration="701000" />
+      <workItem from="1557501281530" duration="1822000" />
+      <workItem from="1557671695865" duration="4757000" />
+      <workItem from="1558198479078" duration="7290000" />
+      <workItem from="1558869339664" duration="9586000" />
+      <workItem from="1559350850871" duration="10605000" />
+      <workItem from="1559869897168" duration="597000" />
+      <workItem from="1559873084906" duration="1761000" />
     </task>
     <servers />
   </component>
@@ -535,11 +651,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21727000" />
+    <option name="totallyTimeSpent" value="59892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="52" width="1301" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -550,18 +665,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59385115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52589" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3697211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33227092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -618,133 +733,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scheduleclient/src/main/java/com/qw/study/scheduleclient/ScheduleclientApplication.java" />
-    <entry file="file://$PROJECT_DIR$/scheduleserver/src/main/java/com/qw/study/scheduleserver/ScheduleserverApplication.java" />
-    <entry file="file://$PROJECT_DIR$/scheduleserver/src/main/resources/application.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE-sources.jar!/org/springframework/boot/context/properties/ConfigurationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar!/org/springframework/boot/autoconfigure/jackson/Jackson2ObjectMapperBuilderCustomizer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar!/org/springframework/boot/autoconfigure/BackgroundPreinitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.0.3.RELEASE/spring-boot-starter-json-2.0.3.RELEASE.jar!/META-INF/spring.provides">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.0.3.RELEASE/spring-boot-starter-json-2.0.3.RELEASE.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar!/org/springframework/boot/autoconfigure/h2/H2ConsoleProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <marker date="1529740513451" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1529740513451" expanded="false" signature="165:273" ph="..." />
-            <marker date="1529740513451" expanded="true" signature="275:335" ph="@{...}" />
-            <marker date="1529740513451" expanded="true" signature="577:584" ph="{}" />
-            <marker date="1529740513451" expanded="false" signature="613:624" ph=" { " />
-            <marker date="1529740513451" expanded="false" signature="641:647" ph=" }" />
-            <marker date="1529740513451" expanded="true" signature="686:929" ph="{...}" />
-            <marker date="1529740513451" expanded="false" signature="962:973" ph=" { " />
-            <marker date="1529740513451" expanded="false" signature="993:999" ph=" }" />
-            <marker date="1529740513451" expanded="false" signature="1044:1055" ph=" { " />
-            <marker date="1529740513451" expanded="false" signature="1078:1084" ph=" }" />
-            <marker date="1529740513451" expanded="false" signature="1139:1150" ph=" { " />
-            <marker date="1529740513451" expanded="false" signature="1171:1177" ph=" }" />
-            <marker date="1529740513451" expanded="true" signature="1212:1731" ph="{...}" />
-            <marker date="1529740513451" expanded="true" signature="1328:1339" ph="{}" />
-            <marker date="1529740513451" expanded="false" signature="1373:1388" ph=" { " />
-            <marker date="1529740513451" expanded="false" signature="1406:1416" ph=" }" />
-            <marker date="1529740513451" expanded="false" signature="1461:1476" ph=" { " />
-            <marker date="1529740513451" expanded="false" signature="1495:1505" ph=" }" />
-            <marker date="1529740513451" expanded="false" signature="1548:1563" ph=" { " />
-            <marker date="1529740513451" expanded="false" signature="1590:1600" ph=" }" />
-            <marker date="1529740513451" expanded="false" signature="1663:1678" ph=" { " />
-            <marker date="1529740513451" expanded="false" signature="1715:1725" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar!/org/springframework/boot/autoconfigure/h2/H2ConsoleAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="51" />
-          <folding>
-            <marker date="1529740513451" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1529740513451" expanded="false" signature="165:867" ph="..." />
-            <marker date="1529740513451" expanded="true" signature="869:1176" ph="@{...}" />
-            <marker date="1529740513451" expanded="false" signature="1339:1350" ph=" { " />
-            <marker date="1529740513451" expanded="false" signature="1379:1385" ph=" }" />
-            <marker date="1529740513451" expanded="true" signature="1456:2027" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="83" column="18" lean-forward="false" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/dev/jdk/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="102" column="26" lean-forward="true" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/h2/H2ConsoleProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/h2/H2ConsoleAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -771,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="56" lean-forward="true" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,20 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -826,20 +799,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/app/MyBeanPostProcessor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/eclient/core/AnnotationParser.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/app/ScheduleConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/service/EScheduleAutoConfigure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -848,39 +813,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="310" column="30" lean-forward="false" selection-start-line="310" selection-start-column="30" selection-end-line="310" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/core/TaskGenerater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/common/JobModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="774">
+          <caret line="56" column="26" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/core/SchedulerRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="432">
           <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/common/JobAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="1008">
+          <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE-sources.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="85" column="13" lean-forward="false" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lib/easyui/locale/easyui-lang-en.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/views/user.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lay/modules/layer.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3276">
+          <caret line="182" column="16" lean-forward="false" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/layui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="42" column="297" lean-forward="false" selection-start-line="42" selection-start-column="297" selection-end-line="42" selection-end-column="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -888,38 +873,120 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="1" column="51491" lean-forward="false" selection-start-line="1" selection-start-column="51491" selection-end-line="1" selection-end-column="51491" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/panel/tastpannel.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ServerApiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="414">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/core/taskstorage/ITaskStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/core/taskstorage/storageimpl/CacheStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/web/ManagementController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="126">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui-task-panel/taskpannel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui-task-panel/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui-task-panel/managerdemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui-task-panel/excel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pingpangus/escheduleserver/common/JobModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui-task-panel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="213" column="1" lean-forward="true" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
           <folding />
         </state>
       </provider>

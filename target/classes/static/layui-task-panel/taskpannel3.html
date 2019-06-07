@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- load relate resource, js, css -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Job Panel</title>
+    <!-- load js file -->
+    <script type="text/javascript" src="../layui/layui.js"></script>
+    <!-- load css file -->
+    <link rel="stylesheet" type="text/css" href="../layui/css/layui.css">
+</head>
+<!-- what the html shows -->
+
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <!--<blockquote class="layui-elem-quote"> This Is Job Manage Panel</blockquote>-->
+        <div class="layui-header">
+            <div class="layui-logo">Job Manage Panel</div>
+            <!-- 头部区域（可配合layui已有的水平导航） -->
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item"><a href="">Jobs</a></li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">System List</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">Lottery</a></dd>
+                        <dd><a href="">Whell</a></dd>
+                        <dd><a href="">Today Hots</a></dd>
+                    </dl>
+                </li>
+            </ul>
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="javascript:;">
+                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+                        贤心
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">基本资料</a></dd>
+                        <dd><a href="">安全设置</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <button class="layui-btn">Logout</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="task-table">
+    </div>
+
+    <script>
+        //JavaScript代码区域
+        layui.use('element', function(){
+            var element = layui.element;
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        
+        function editTask(data) {
+
+            data.
+
+        console.log("edit task", JSON.stringify(data));
+
+        }
+
+    </script>
+
+
+    <!-- Job Templat Js -->
+    <script id="job_list" type="text/html">
+
+
+        <table class="layui-table" >
+          <colgroup>
+            <col width="150">
+            <col width="150">
+            <col width="200">
+            <col>
+            <col width="280" align="layui-layout-right">
+          </colgroup>
+          <thead>
+            <tr>
+              <th>Task Name</th>
+              <th>Group</th>
+              <th>Host Ip</th>
+              <th>Cron</th>
+              <th>Edit</th>
+            </tr> 
+          </thead>
+
+            <tbody>
+              {{#  layui.each(d.data, function(index, item){ }}
+                <tr>
+                    <td>{{ item.taskName }}</td>
+                    <td>{{ item.group }}</td>
+                    <td>{{ item.hostIp || '' }}</td>
+                    <td>{{ item.cron || '' }}</td>
+                    <td>
+                        <div class="layui-btn-group">
+                            <button onclick="editTask( ${item} )" id="task-detail-button" style="width:70px" class="layui-btn layui-btn-primary layui-btn-radius">
+                                detai
+                            </button> 
+                            <button id="task-detail-button" style="width:70px" class="layui-btn layui-btn-normal layui-btn-radius">
+                                edit
+                            </button>
+                            <button id="task-detail-button" style="width:70px" class="layui-btn layui-btn-danger layui-btn-radius">
+                                delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+              {{#  }); }}
+              {{#  if(d.data.length === 0){ }}
+                无数据
+              {{#  } }} 
+            </tbody>
+            
+        </table>
+
+    </script>
+
+    <!-- 第二步：建立视图。用于呈现渲染结果。 -->
+    <div id="view_table"></div>
+
+    <!-- 第三步：渲染模版 -->
+    <script type="text/javascript">
+    var data = { //数据
+        "title": "Layui常用模块",
+        "list": [{ "modname": "弹层", "alias": "layer", "site": "layer.layui.com" }, { "modname": "表单", "alias": "form" }]
+    }
+    var taskDataLocal = {"status":1,"message":"success","data":[{"jobId":"db5-a898-be267d5a2d78","jobName":"exampleJob","hostIp":"http://127.0.1.1:8081/eclient/start","group":"exampleGroup","cron":"0/1 * * * * *","taskName":"exampleJob"}]}
+
+    var url = 'http://127.0.0.1:8081/eschdule-server/queryAll';
+    var taskData = Object;
+
+    layui.use(['laytpl', 'jquery', 'layer'], function() {
+
+        var layer = layui.layer
+        var $ = layui.jquery;
+        $.ajax({
+            url: url,
+            type: 'get',
+            data: { openid: 'openid' },
+            beforeSend: function() {
+                this.layerIndex = layer.load(0, { shade: [0.5, '#393D49'] });
+            },
+            success: function(result) {
+                console.log("request task result", JSON.stringify(result))
+                if (result.status == 'error') {
+                    layer.msg(data.msg, { icon: 5 }); //失败的表情
+                    o.removeClass('layui-btn-disabled');
+                    return;
+                } else {
+                    layer.msg(result.message, {
+                        icon: 6, //成功的表情
+                        time: 1000 //1秒关闭（如果不配置，默认是3秒）
+                    }, function() {
+                        // location.reload();
+                    });
+                    taskData=result;
+                    show(taskDataLocal);
+
+                }
+            },
+            complete: function() {
+                layer.close(this.layerIndex);
+            },
+
+
+        })
+
+        console.log("revieve data", JSON.stringify(taskData))
+
+        // show(taskData);
+
+        // send result to functions
+        // show(data);
+
+    });
+
+
+    function show(data) {
+
+        console.log("revieve data", JSON.stringify(data))
+
+
+        layui.use(['laytpl', 'jquery', 'layer'], function() {
+            var laytpl = layui.laytpl;
+            var getTpl = job_list.innerHTML
+            view = document.getElementById('view_table');
+            laytpl(getTpl).render(data, function(html) {
+                view.innerHTML = html;
+            });
+
+        });
+
+
+    }
+    </script>
+
+
+<body>
+
+        <table class="layui-hide" id="demo" lay-filter="test"></table>
+
+        <script type="text/html" id="taskEditor">
+            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+        </script>
+
+</body>
+
+
+</body>
+
+</html>

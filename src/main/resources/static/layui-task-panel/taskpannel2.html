@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- load relate resource, js, css -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Job Panel</title>
+    <!-- load js file -->
+    <script type="text/javascript" src="../layui/layui.js"></script>
+    <!-- load css file -->
+    <link rel="stylesheet" type="text/css" href="../layui/css/layui.css">
+</head>
+<!-- what the html shows -->
+
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <!--<blockquote class="layui-elem-quote"> This Is Job Manage Panel</blockquote>-->
+        <div class="layui-header">
+            <div class="layui-logo">Job Manage Panel</div>
+            <!-- 头部区域（可配合layui已有的水平导航） -->
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item"><a href="">Jobs</a></li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">System List</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">Lottery</a></dd>
+                        <dd><a href="">Whell</a></dd>
+                        <dd><a href="">Today Hots</a></dd>
+                    </dl>
+                </li>
+            </ul>
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="javascript:;">
+                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+                        贤心
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">基本资料</a></dd>
+                        <dd><a href="">安全设置</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <button class="layui-btn">Logout</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="task-table">
+    </div>
+    <script>
+        //JavaScript代码区域
+        layui.use('element', function(){
+            var element = layui.element;
+
+        });
+    </script>
+    <!-- Job Templat Js -->
+    <script id="job_list" type="text/html">
+        <table class="layui-table" lay-skin="line">
+          <colgroup>
+            <col width="150">
+            <col width="150">
+            <col width="200">
+            <col>
+          </colgroup>
+          <thead>
+            <tr>
+              <th>人物</th>
+              <th>民族</th>
+              <th>出场时间</th>
+              <th>格言</th>
+            </tr> 
+          </thead>
+
+            <tbody>
+              {{#  layui.each(d.list, function(index, item){ }}
+                <tr>
+                    <td>{{ item.modname }}</td>
+                    <td>{{ item.alias }}：</td>
+                    <td>{{ item.site || '' }}</td>
+                    <td>人生似修行</td>
+                </tr>
+              {{#  }); }}
+              {{#  if(d.list.length === 0){ }}
+                无数据
+              {{#  } }} 
+            </tbody>
+            
+        </table>
+    </script>
+    <!-- 第二步：建立视图。用于呈现渲染结果。 -->
+    <div id="view_table"></div>
+    <!-- 第三步：渲染模版 -->
+    <script type="text/javascript">
+    var data = { //数据
+        "title": "Layui常用模块",
+        "list": [{ "modname": "弹层", "alias": "layer", "site": "layer.layui.com" }, { "modname": "表单", "alias": "form" }]
+    }
+
+    layui.use(['laytpl','jquery'], function() {
+
+        var $ = layui.jquery;
+
+        var laytpl = layui.laytpl;
+        var getTpl = job_list.innerHTML
+        view = document.getElementById('view_table');
+        laytpl(getTpl).render(data, function(html) {
+            view.innerHTML = html;
+        });
+    });
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

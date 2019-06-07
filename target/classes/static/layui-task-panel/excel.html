@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <script src="../layui/layui.js"></script>
+</head>
+
+<body>
+<ul class="layui-nav" lay-filter="">
+    <li class="layui-nav-item"><a href="">最新活动</a></li>
+    <li class="layui-nav-item layui-this"><a href="">产品</a></li>
+    <li class="layui-nav-item"><a href="">大数据</a></li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">解决方案</a>
+        <dl class="layui-nav-child"> <!-- 二级菜单 -->
+            <dd><a href="">移动模块</a></dd>
+            <dd><a href="">后台模版</a></dd>
+            <dd><a href="">电商平台</a></dd>
+        </dl>
+    </li>
+    <li class="layui-nav-item"><a href="">社区</a></li>
+</ul>
+
+
+<div class="layui-tab">
+    <ul class="layui-tab-title">
+        <li class="layui-this">标题一</li>
+        <li>标题二</li>
+        <li>标题三</li>
+    </ul>
+    <div class="layui-tab-content">
+        <div class="layui-tab-item layui-show">内容1</div>
+        <div class="layui-tab-item">内容2</div>
+        <div class="layui-tab-item">内容3</div>
+    </div>
+</div>
+
+<div class="layui-tab">
+    <ul class="layui-tab-title">
+        <li class="layui-this">标题一</li>
+        <li>标题二</li>
+        <li>标题三</li>
+    </ul>
+    <div class="layui-tab-content">
+        <div class="layui-tab-item layui-show">内容1</div>
+        <div class="layui-tab-item">内容2</div>
+        <div class="layui-tab-item">内容3</div>
+    </div>
+</div>
+
+<button class="layui-btn" lay-submit lay-filter="login">登入</button>
+
+<i class="layui-icon layui-icon-face-smile"></i>
+
+<div class="layui-anim layui-anim-up">xx</div>
+
+<button class="layui-btn layui-anim layui-anim-up">一个标准的按钮</button>
+
+
+<button class="layui-btn layui-btn-warm layui-anim layui-anim-up">一个标准的按钮</button>
+
+
+
+<script>
+    //注意：导航 依赖 element 模块，否则无法进行功能性操作
+    layui.use('element', function(){
+        var element = layui.element;
+
+        //…
+    });
+
+    // define method
+    layui.define(function(exports){
+        //do something
+        // alert('Hello World!');
+
+        exports('demo', function(){
+            alert('Hello World!');
+        });
+    });
+
+    layui.demo();
+
+
+
+</script>
+</body>
+</html>

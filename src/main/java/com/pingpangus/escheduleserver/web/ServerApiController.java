@@ -37,4 +37,11 @@ public class ServerApiController {
         return new ResponseVo();
     }
 
+
+
+    public static void main(String[] args) {
+
+        System.out.println("");
+
+    }
 }
